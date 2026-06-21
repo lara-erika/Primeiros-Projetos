@@ -1,0 +1,11 @@
+##Exercicio do curso de python do ifes##
+nota1=float(input("Nota 1:"))
+nota2=float(input("Nota 2:"))
+nota3=float(input("Nota 3:"))
+faltas=int(input("Faltas:"))
+media=(nota1+nota2+nota3)/3
+print ("O valor da média é:", media)
+if(media >= 60 and faltas <25):
+    print("Aprovado")
+else:
+    print("Reprovado")
