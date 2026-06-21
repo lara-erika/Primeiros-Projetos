@@ -1,0 +1,9 @@
+## Exercicio do curso de Python do IFES##
+qtd = 0
+tecla="p"
+while (qtd<10 and tecla!="p"):
+    preco = float(input("Preço:"))
+    total = total+preco
+    qtd = qtd+1
+    tecla = input ("Pressione qualquer para continuar ou 'p' para parar...")
+print ("O total da compra é", total)
