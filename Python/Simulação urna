@@ -1,4 +1,4 @@
-## Exercicio do curso de Python do IFES; Entradas: votos, horario; processamento: ler voto, verificar horario se esta entre 8h e 17h; saaida: total de votos por candidato/##
+## Exercicio do curso de Python do IFES; Entradas: votos, horario; processamento: ler voto, verificar horario se esta entre 8h e 17h; saída: total de votos por candidato ##
 horario = 8
 candidato1=0
 candidato2=0

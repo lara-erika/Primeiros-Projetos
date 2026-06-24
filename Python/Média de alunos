@@ -1,4 +1,4 @@
-##Exercicio do curso de python do ifes##
+##Exercicio do curso de python do ifes; Objetivo: Calcular a média de um aluno e verificar sua aprovação ##
 nota1=float(input("Nota 1:"))
 nota2=float(input("Nota 2:"))
 nota3=float(input("Nota 3:"))
