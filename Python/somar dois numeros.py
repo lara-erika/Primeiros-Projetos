@@ -1,4 +1,4 @@
-## Exercicio 1 do curso de Python do curso em vídeo ##
+## Exercicio 1 do curso de Python do curso em vídeo, somar dois números ##
 nome= input ("Olá, digte seu nome:")
 print ("Olá, é um prazer te conhecer, {}! O que deseja somar?".format(nome))
 n1= int(input("Digite o primeiro número:"))
