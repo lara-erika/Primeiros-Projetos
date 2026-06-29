@@ -5,6 +5,6 @@ ano_nascimento= int(input("Digite o ano do seu nascimento:"))
 ano_atual= int(input("Digite o ano atual:"))
 idade= ano_atual - ano_nascimento
 if idade >= 18:
-    print ("Parabéns, {}! Você tem {} anos e está apto(a) a tirar a carteira de motorista.".format(nome, idade))    
+    print ("Parabéns, {}!\nVocê tem {} anos e está apto(a) a tirar a carteira de motorista.".format(nome, idade))    
 else:
-    print ("Desculpe, {}! Você tem {} anos e não está apto(a) a tirar a carteira de motorista.".format(nome, idade))
+    print ("Desculpe, {}!\nVocê tem {} anos e não está apto(a) a tirar a carteira de motorista.".format(nome, idade))
