@@ -1,30 +1,36 @@
 #Este programa tem como objetivoler um angulo qualquer exibir seu seno, seu cosseno e sua tangente, utilizando a biblioteca math.#
 import math
+
 print('------------------------------------------------------------------')
 print("Bem-vindo ao programa de cálculo do seno, cosseno e tangente de um ângulo!\n")
 print('------------------------------------------------------------------')
+
 angulo = float(input("Digite o valor do ângulo em graus: \n"))
 seno = math.sin(math.radians(angulo))
 cosseno = math.cos(math.radians(angulo))
 tangente = math.tan(math.radians(angulo))
+
 print('------------------------------------------------------------------')
 print("O seno do ângulo é: {:.2f}\n".format(seno))
 print("O cosseno do ângulo é: {:.2f}\n".format(cosseno))
 print("A tangente do ângulo é: {:.2f}\n".format(tangente))
 print('O programa foi encerrado. Obrigado por utilizar o programa!\n')
 print('------------------------------------------------------------------')
+
 continuar = input("Deseja calcular o seno, cosseno e tangente de outro ângulo? (s/n): \n")
 while continuar.lower() == 's':
     angulo = float(input("Digite o valor do ângulo em graus: \n"))
     seno = math.sin(math.radians(angulo))
     cosseno = math.cos(math.radians(angulo))
     tangente = math.tan(math.radians(angulo))
+
     print('------------------------------------------------------------------')
     print("O seno do ângulo é: {:.2f}\n".format(seno))
     print("O cosseno do ângulo é: {:.2f}\n".format(cosseno))
     print("A tangente do ângulo é: {:.2f}\n".format(tangente))
     print('O programa foi encerrado. Obrigado por utilizar o programa!\n')
     print('------------------------------------------------------------------')
+    
     continuar = input("Deseja calcular o seno, cosseno e tangente de outro ângulo? (s/n): \n")
     if continuar.lower() != 's' and continuar.lower() != 'n':
         print("Opção inválida. O programa será encerrado.")
